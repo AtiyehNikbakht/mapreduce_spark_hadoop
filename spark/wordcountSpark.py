@@ -15,6 +15,6 @@ textRddM = textRddM.collect()
 end = time.time()
 final = end - start
 
-print("Time is:", final)
+print("Time to running file1G.txt is:", final)
 spark.stop()
 
